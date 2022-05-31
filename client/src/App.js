@@ -30,6 +30,7 @@ function App() {
         <img
           src={RefreshSVG}
           className="refresh-button"
+          alt="Refresh Computers"
           onClick={() => {
             getComputers();
           }}
@@ -38,6 +39,7 @@ function App() {
         <img
           src={PlusSVG}
           className="plus-button"
+          alt="Add New Computer"
           onClick={() => {
             console.log("Add Computer");
           }}

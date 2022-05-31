@@ -12,6 +12,7 @@ const ComputerInfo = (props) => {
           <img
             src={XSymbol}
             className="exit-button"
+            alt="Exit Popup"
             onClick={() => {
               props.setTrigger(false);
             }}

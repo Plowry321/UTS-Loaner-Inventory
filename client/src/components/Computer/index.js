@@ -33,7 +33,10 @@ const Computer = ({
         {/* Computer Name */}
         <h2>{name}</h2>
         {/* OS Image */}
-        <img src={OS == "Windows" ? WindowsIcon : AppleIcon} alt={OS} />
+        <img
+          src={OS.toLowerCase() === "windows" ? WindowsIcon : AppleIcon}
+          alt={OS}
+        />
         {/* Make & Model */}
         <h4>
           {make} {model}
