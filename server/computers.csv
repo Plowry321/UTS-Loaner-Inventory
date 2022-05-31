@@ -1,0 +1,3 @@
+id,name,serial,bsu,OS,version,make,status,model,processor,ram,drive,storage,graphics,accessories,currentUser,pastUsers,checkOutDate
+1,"Loaner #1",23D67G4A,669682,Windows,"Windows 10",Lenovo,1,"ThinkPad 7440p","Intel® Core™ i5-4300M CPU 2.60GHz","8.00 GB",HDD,"466 GB","Intel® HD Graphics 4600",Charger,NULL,NULL,NULL
+2,"Loaner #2",FVFDP6VHQ05F,N/A,Apple,"macOS Monterey",Apple,0,"MacBook Pro","Apple M1","8.00 GB",SSD,"494 GB","Apple M1",NULL,plowry@bsu.edu,"knbyrd@bsu.edu, addouglas@bsu.edu",05/31/2022
